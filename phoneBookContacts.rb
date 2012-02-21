@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+#Developed by: Mr. Karvalhovsky
+#Date: 21-02-2012
 class Contact
 	attr_accessor :contact_id, :name, :surname, :age, :tel
 	
