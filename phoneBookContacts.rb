@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 class Contact
 	attr_accessor :contact_id, :name, :surname, :age, :tel
 	
@@ -310,6 +311,7 @@ class PhoneBook
 		elsif ans == 0.to_s
 			fm = PBFileManager.new
 			fm.writeFile
+			gets
 			exit
 		end
 	end
